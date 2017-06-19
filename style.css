@@ -1,8 +1,48 @@
 body{
-  background-color: #9191E9;
+  background-color: #084C61;
 }
 
 /*NAV BAR*/
+
+#bg{
+  width: 98%;
+  padding-bottom: 50%;
+  position:absolute;
+  text-align: center;
+  margin: 0 auto;
+  z-index: -1;
+	background: #9191E9;
+}
+
+
+.row{
+  margin-top: 30px;
+}
+
+.toprow{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.secondrow{
+  display: flex;
+  justify-content: space-around;
+}
+
+.thirdrow{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.quoterow{
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 .navbar {
   display: block;
@@ -14,24 +54,30 @@ body{
 
 .dropbtn {
     background-color: #FFA730;
+    border-radius: 25px;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 19pt;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    border: none;
+    border: 5px solid #f19313;
     cursor: pointer;
+    box-shadow: 10px 10px 5px #656161;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
     margin-left: 10px;
+    border-radius: 25px;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
+    border-radius: 25px;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -44,6 +90,7 @@ body{
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
+    border-radius: 25px;
     display: block;
 }
 
@@ -55,6 +102,7 @@ body{
 
 .dropdown:hover .dropbtn {
     background-color: #FB7900;
+    border-radius: 25px;
 }
 /******************************************/
 
@@ -62,7 +110,12 @@ body{
 
 #mainpic {
   text-align: center;
-  margin: 0 auto;
+  margin: 35px;
+  margin-top: -60px;
+}
+
+img {
+    border-radius:90px;
 }
 
 /*****************************************/
@@ -105,7 +158,7 @@ body{
 .cust-quotes blockquote p{
   font-size:24px;
   font-weight:normal;
-  /*font-style:italic;*/
+  font-style:italic;
   font-family: 'Roboto Slab', serif;
   color:#353535;
   line-height: 30px;
@@ -127,20 +180,34 @@ body{
   font-size:14px;
   font-weight:normal;
 }
-
-.container {
-
-max-width:940px;
-margin:0 auto;
-
+.quoterow{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-#testimonials {
+
+/*#testimonials {
   text-align: center;
   display: block;
   margin:0 auto;
   width:940px;
 
-}
+}*/
 
 /*****************************************/
+
+#oval {
+	width: 98%;
+  padding-bottom: 50%;
+  position:absolute;
+  text-align: center;
+  margin: 0 auto;
+  z-index: -1;
+	background: #9191E9;
+  border: 25px solid #353466;
+  border-top-left-radius: 700px;
+  border-top-right-radius: 700px;
+  border-bottom: 0px;
+}
