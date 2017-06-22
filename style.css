@@ -211,3 +211,98 @@ img {
   border-top-right-radius: 700px;
   border-bottom: 0px;
 }
+
+.survey{
+  height: 25%;
+  width: 15%;
+  display: inline-block;
+  background-color: #BD165D;
+  border: 10px solid rgb(85, 198, 71);
+  float: right;
+  margin-top: 4%;
+  margin-right: 10%;
+  border-radius: 30px;
+}
+
+.surveytext{
+  margin-top: 21%;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16pt;
+  text-align: center;
+  white-space: pre-wrap;
+}
+.elipse {
+	width: 98%;
+  height: 98%;
+  position:absolute;
+  text-align: center;
+  margin: 0 auto;
+  z-index: -1;
+	background: #6565aa;
+  border: 25px solid #8ef2e0;
+  border-radius: 700px;
+}
+
+.storytext{
+  margin-top: 10%;
+}
+
+.textblock {
+  color: white;
+  font-family: 'Judson', serif;
+  font-size: 16pt;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.goleft {
+  display: inline-block;
+  width: 16em;
+  height: 14em;
+  position:relative;
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 30%;
+  z-index: 1;
+  background: #eb9bde;
+  border: 10px solid #c87fa0;
+  border-radius: 100px;
+}
+.goright {
+  display: inline-block;
+  width: 17em;
+  height: 8em;
+  position:relative;
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 10%;
+  z-index: 1;
+  background: rgb(146, 214, 84);
+  border: 10px solid rgb(75, 138, 247);
+  border-radius: 60px;
+}
+
+.optionleft {
+  color: black;
+  font-family: 'Judson', serif;
+  font-size: 30pt;
+  position: relative;
+  margin-top: 30%;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.optionright {
+  color: black;
+  font-family: 'Judson', serif;
+  font-size: 30pt;
+  position: relative;
+  margin-top: 10%;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.choices {
+  display: inline-block;
+}
